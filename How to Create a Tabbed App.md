@@ -53,3 +53,22 @@ This template covers adding a view controller using the Main.storyboard file in 
     self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
 ```
+
+7. Test your app by running it. Prior to this I recommend changing the colors of each tab by selecting the `-(void)viewDidLoad]{` functions and replacing them with the following:
+```objective-c
+- (instancetype) init {
+    self = [super init];
+    if (self) {
+        self.title = NSLocalizedString(@"Chat Box", nil);
+    }
+    return self;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    // Do any additional setup after loading the view, typically from a nib.
+}```
+
+Change the colors of each tab so you can see if you successfully navigate around. whiteColor to redColor, blueColor, etc. 

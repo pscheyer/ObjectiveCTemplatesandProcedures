@@ -72,3 +72,6 @@ This template covers adding a view controller using the Main.storyboard file in 
 }```
 
 Change the colors of each tab so you can see if you successfully navigate around. whiteColor to redColor, blueColor, etc. 
+
+
+Sources: [Tab Bar Controllers in Storyboards](http://makeapppie.com/2015/01/27/tab-bar-controllers-in-storyboards/), as prompted by [Understanding Multipeer Connectivity Framework in iOS 7- Part 1](http://www.appcoda.com/intro-multipeer-connectivity-framework-ios-programming/) which had outdated details on building a tab bar controller.

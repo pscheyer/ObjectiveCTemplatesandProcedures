@@ -30,7 +30,15 @@ This template covers adding a view controller using the Main.storyboard file in 
   *In the View Controller Title change the name to whatever. In our example it's Connections. 
 
 
-6. Now we change the title of the tab bar button by 
+6. Now we change the title of the tab bar button by 1 of 2 methods.
+
+Interface Builder:
+  *click on the particular view controllers
+  *click on the buttons at the bottom of them in the tab bar
+  *rename the button using the properties pane.
+
+
+Or, using code, (__note; the code method breaks the multipeer tutorial, which later assumes you had done everything in interface builder. They don't play nice.__)
 
 
   *Enter your AppDelegate.m file.
@@ -75,3 +83,5 @@ Change the colors of each tab so you can see if you successfully navigate around
 
 
 Sources: [Tab Bar Controllers in Storyboards](http://makeapppie.com/2015/01/27/tab-bar-controllers-in-storyboards/), as prompted by [Understanding Multipeer Connectivity Framework in iOS 7- Part 1](http://www.appcoda.com/intro-multipeer-connectivity-framework-ios-programming/) which had outdated details on building a tab bar controller.
+
+
